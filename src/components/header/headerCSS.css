@@ -1,0 +1,34 @@
+.Header-logo {
+    height: 100px;
+}
+
+.Header-logo:hover {
+    transform: scale(1.1);
+}
+
+.headerLink:hover, Nav.Link:hover {
+    color: white;
+    background-color: lightslategray;
+    border-radius: 4%;
+    padding: 3px;
+}
+
+Navbar.Brand {
+    text-decoration: none;
+  };
+  
+  .header-container {
+      margin-top: 3px;
+  }
+
+  .egg {
+    width: 18px;
+    height: 25px;
+    background-color: white;
+    -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  }
+
+  Nav.Link {
+    position: absolute;
+  }
