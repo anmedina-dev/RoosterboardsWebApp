@@ -14,6 +14,7 @@ import NotFound from './containers/NotFound/NotFound';
 import Catalog from './containers/Catalog/Catalog';
 import Profile from './containers/Profile/Profile';
 import Cart from './containers/Cart/Cart';
+import TestKeeb from './containers/TestKeeb/TestKeeb';
 
 
 const routing = (
@@ -26,6 +27,7 @@ const routing = (
           <Route path="/" element={<App/>} />
           <Route path="/AboutUs" element={<AboutUs/>} />
           <Route path="/Catalog" element={<Catalog/>} />
+          <Route path="/testkeeb" element={<TestKeeb/>} />
           <Route path="/Profile" element={<Profile/>} />
           <Route path="/Cart" element={<Cart/>} />
         </Routes>
