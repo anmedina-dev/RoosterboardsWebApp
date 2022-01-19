@@ -14,10 +14,13 @@
     font-size: 23px;
 }
 
-.link-class:hover {
-  color: white;
-  background-color: rgba(126, 126, 126, .5);
-  border-radius: 4%;
+
+@media (max-width: 991px) {
+  .link-class:hover {
+    color: white;
+    background-color: rgba(126, 126, 126, .5);
+    border-radius: 4%;
+  } 
 }
 
 .rbLink {
