@@ -6,3 +6,65 @@
     align-items: center;
     justify-content: center;
 }
+
+form {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-in-input input {
+    width: 90%;
+}
+
+.sign-in-label {
+    margin-bottom: 3%;
+    color: white;
+}
+
+.sign-in-input {
+    margin-bottom: 3%;
+}
+
+.form-tabs {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    color: rgba(255,255,255,.55);
+    margin-top: 5%;
+}
+
+.form-tabs div {
+    margin: 0px 3% 0px;
+    padding: 1%;
+}
+
+.form-tabs div:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.current-tab {
+    border-bottom:2px solid white;
+}
+
+.login-section {
+    justify-content: center;
+    display: grid;
+    width: 100%;
+    color: white;
+}
+
+.login-section div {
+    font-size: 10vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.login-section * {
+    margin: 0px 1% 0px;
+}
+

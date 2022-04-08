@@ -3,8 +3,6 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import { Route, BrowserRouter, Routes } from "react-router-dom";
 import App from './App';
-import { store } from './store/store';
-import { Provider } from 'react-redux';
 import * as serviceWorker from './serviceWorker';
 import Header from './components/header/header';
 // Importing the Bootstrap CSS
@@ -16,11 +14,9 @@ import Profile from './containers/Profile/Profile';
 import Cart from './containers/Cart/Cart';
 import TestKeeb from './containers/TestKeeb/TestKeeb';
 
-
 const routing = (
   <React.StrictMode>
     <BrowserRouter>
-      <Provider store={store}>
         <Header/>
         <Routes>
           <Route path="*" element={<NotFound/>} />
@@ -31,7 +27,6 @@ const routing = (
           <Route path="/Profile" element={<Profile/>} />
           <Route path="/Cart" element={<Cart/>} />
         </Routes>
-      </Provider>
     </BrowserRouter>
   </React.StrictMode> 
 );
