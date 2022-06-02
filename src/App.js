@@ -55,6 +55,10 @@ function App() {
   return (
     <div className="App">
       <div className='app-home'>
+        <div className='app-header'>
+          <h1>Roosterboards Company</h1>
+
+        </div>
         <div className='keyboard-canvas'>
           <Canvas>
             <ambientLight />
