@@ -24,7 +24,7 @@ function Header() {
     });
     return(
         <div className='header-body'>
-            <Navbar collapseOnSelect expand="lg" variant="dark" fixed="top">
+            <Navbar collapseOnSelect expand="lg" variant="dark" sticky="top">
                 <Container className='header-container'>
                     {isDesktop ? (
                         <Link to='/'>

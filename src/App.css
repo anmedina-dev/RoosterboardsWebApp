@@ -25,6 +25,19 @@
 .App-link {
   color: white;
 }
+.app-home{
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.keyboard-canvas {
+  height: 800px;
+  width: 100%;
+}
 
 @keyframes App-logo-float {
   0% {
