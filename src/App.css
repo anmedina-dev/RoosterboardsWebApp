@@ -13,17 +13,47 @@
   }
 }
 
-.App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+@font-face {
+  font-family: PlayfairDisplay;
+  src: url(./assets/fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+.app-header {
+  display: grid;
+  height: 800px;
+  text-align: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-content: center;
+}
+
+.app-header h1{
+  font-family: PlayfairDisplay;
+  font-size: 70px;
+}
+
+.app-header h4 {
+  font-family: PlayfairDisplay;
 }
 
 .App-link {
   color: white;
+}
+.app-home{
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  margin: 0px 10%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.keyboard-canvas {
+  height: 800px;
+}
+
+
+.app-header, .keyboard-canvas {
+  width: 826.4px;
 }
 
 @keyframes App-logo-float {
