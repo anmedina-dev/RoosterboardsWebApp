@@ -68,3 +68,6 @@ form {
     margin: 0px 1% 0px;
 }
 
+.error-message {
+    color: red;
+}

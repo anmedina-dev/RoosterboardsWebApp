@@ -21,7 +21,6 @@
 .app-header {
   display: grid;
   height: 800px;
-  width: 100%;
   text-align: center;
   justify-content: center;
   align-content: center;
@@ -43,12 +42,18 @@
   text-align: center;
   min-height: 100vh;
   display: flex;
-  padding: 0px 300px;
+  margin: 0px 10%;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .keyboard-canvas {
   height: 800px;
-  width: 100%;
+}
+
+
+.app-header, .keyboard-canvas {
+  width: 826.4px;
 }
 
 @keyframes App-logo-float {
