@@ -1,0 +1,21 @@
+.loggedInPage {
+}
+
+.loggedInPage > * {
+	display: flex;
+	justify-content: center;
+	padding-top: 30px;
+}
+
+.loggedInImage {
+	border-radius: 50%;
+}
+
+.profileInfoSection {
+	flex-wrap: wrap;
+}
+
+.profileInfoSection > * {
+	width: 100%;
+	text-align: center;
+}

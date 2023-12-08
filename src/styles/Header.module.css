@@ -1,0 +1,103 @@
+.HeaderLogo:hover {
+  transform: scale(1.1);
+}
+
+.headerLink:hover {
+  font-size: 23px;
+}
+
+@media (max-width: 991px) {
+  .linkClass:hover {
+    color: white;
+    background-color: rgba(126, 126, 126, 0.5);
+    border-radius: 4%;
+  }
+}
+
+.rbLink {
+  text-decoration: none;
+}
+
+.headerContainer {
+  margin-top: 3px;
+  background-color: #07243b;
+  border-radius: 25px;
+  padding: 15px;
+}
+
+@media (min-width: 992px) {
+  .egg {
+    margin-top: 5px;
+    position: absolute;
+    width: 18px;
+    height: 25px;
+    background-color: white;
+    -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    z-index: -10;
+
+    visibility: hidden;
+    overflow: hidden;
+  }
+
+  .eggLink:hover > .egg {
+    visibility: visible;
+    animation: eggJump 0.6s ease-in-out;
+    overflow: hidden;
+  }
+
+  .eggLink {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    border: white 2px solid;
+    border-radius: 25px;
+    padding: 10px;
+  }
+
+  .iconClass {
+    height: 35px;
+    width: 35px;
+  }
+
+  .basketIcon {
+    filter: invert(70%);
+  }
+
+  .profileImage {
+    border-radius: 50%;
+  }
+
+  .iconClass:hover {
+    filter: invert(100%);
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .headerImage:hover {
+      animation: Logo-Flip infinite 1.2s ease-in-out;
+    }
+  }
+
+  @keyframes eggJump {
+    0%,
+    100% {
+      transform: translate(0, 0);
+    }
+    50% {
+      transform: translate(0, -85px);
+    }
+  }
+}
+
+@keyframes Logo-Flip {
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(180deg);
+  }
+  100% {
+    transform: rotateY(0deg);
+  }
+}

@@ -1,0 +1,49 @@
+.catalogPage {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.catalogCardSection {
+  height: 1600px;
+  /* This needs to be a flex parent */
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  margin-left: 0;
+}
+
+.productMap {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* Move the inner element 80px to the left */
+}
+
+.catalogMobileMenuSection,
+.catalogDesktopMenuSection {
+  background-color: #07243b;
+  border-radius: 25px;
+  color: white;
+}
+
+.catalogMobileMenuSection {
+  width: 100%;
+  border-radius: 25px;
+  border: 0;
+}
+
+.productCard {
+  background-color: white;
+  margin-bottom: 5px;
+  width: 30%;
+}
+
+.categoryTitle {
+  text-decoration: underline white 2px;
+}
+
+.catalogCard {
+  max-height: 500px;
+}

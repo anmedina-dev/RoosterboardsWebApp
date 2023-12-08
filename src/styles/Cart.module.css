@@ -1,0 +1,11 @@
+.ItemCard {
+  background-color: #07243b;
+  width: 100%;
+  display: flex;
+  color: white;
+  border-radius: 25px;
+}
+
+.ItemImage {
+  border-radius: 25px;
+}

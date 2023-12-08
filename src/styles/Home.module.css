@@ -1,0 +1,45 @@
+.homePage {
+  text-align: center;
+}
+
+.appLogo {
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .appLogo {
+    animation: Logo-Flip infinite 2s ease-in-out;
+  }
+}
+
+.appHeader {
+  display: grid;
+  height: 300px;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.appHeader h1 {
+  font-family: PlayfairDisplay;
+  font-size: 70px;
+}
+
+.appHeader h4 {
+  font-family: PlayfairDisplay;
+}
+
+.appHome {
+  text-align: center;
+  display: flex;
+  margin: 0px 10%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.appHome > * {
+  width: 100%;
+}
+
+.keyboardSection {
+  height: 400px;
+}
